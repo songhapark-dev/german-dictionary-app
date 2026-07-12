@@ -1,33 +1,11 @@
-# OS files (맥북 종합 방어)
+# Xcode-spezifische Dateien
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon?
-._*
+build/
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
 
-# Frontend (React/Vite)
-blog-frontend/node_modules/
-blog-frontend/dist/
-blog-frontend/.vite/
-# 🚨 모든 형태의 프론트엔드 환경변수 파일 방어
-blog-frontend/.env
-blog-frontend/.env.local
-blog-frontend/.env.*.local
-
-# Backend (Python)
-blog-backend/venv/
-blog-backend/env/
-blog-backend/.venv/
-blog-backend/__pycache__/
-# 🚨 백엔드 환경변수 파일 추가 방어
-blog-backend/.env
-blog-backend/.env.*
-
-# Python Cache and Databases
-*.pyc
-*.pyo
-*.pyd
-*.sqlite3
-
-# logs
-*.log
+# 🚨 DATENSCHUTZ: API-Keys niemals hochladen!
+Secret.plist
+Secrets.plist
