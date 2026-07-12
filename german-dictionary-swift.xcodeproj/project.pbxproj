@@ -29,9 +29,32 @@
 		075F8CA72FFB9C55004A28B5 /* german-dictionary-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "german-dictionary-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		075F8CD62FFBB24B004A28B5 /* Exceptions for "german-dictionary-swift" folder in "german-dictionary-swiftTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/DatabaseManager.swift,
+				Models/VocabularyModel.swift,
+			);
+			target = 075F8C9C2FFB9C55004A28B5 /* german-dictionary-swiftTests */;
+		};
+		075F8CD72FFBB24B004A28B5 /* Exceptions for "german-dictionary-swift" folder in "german-dictionary-swiftUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/DatabaseManager.swift,
+				Models/VocabularyModel.swift,
+			);
+			target = 075F8CA62FFB9C55004A28B5 /* german-dictionary-swiftUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		075F8C922FFB9C52004A28B5 /* german-dictionary-swift */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				075F8CD62FFBB24B004A28B5 /* Exceptions for "german-dictionary-swift" folder in "german-dictionary-swiftTests" target */,
+				075F8CD72FFBB24B004A28B5 /* Exceptions for "german-dictionary-swift" folder in "german-dictionary-swiftUITests" target */,
+			);
 			path = "german-dictionary-swift";
 			sourceTree = "<group>";
 		};
@@ -395,6 +418,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7V2SQ4LVJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -422,6 +446,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7V2SQ4LVJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
