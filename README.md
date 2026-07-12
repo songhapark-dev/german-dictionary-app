@@ -1,4 +1,4 @@
-# 🔍 Wortschatz-App (German-Dictionary-App)
+#  Wortschatz-App (German-Dictionary-App)
 
 Eine moderne, native iOS-App zum Lernen von deutschem Vokabular. Die App nutzt die **Gemini 2.5 Flash API**, um eingegebene Wörter oder ganze Sätze intelligent zu analysieren, Tippfehler oder falsche Groß-/Kleinschreibung zu korrigieren, das Kernwort zu extrahieren und eine prägnante koreanische Übersetzung zu liefern. Alle Daten werden lokal auf dem Gerät gespeichert.
 
